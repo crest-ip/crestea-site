@@ -110,6 +110,7 @@ h2 { margin-bottom: 28px; font-size: clamp(44px, 5.5vw, 78px); line-height: 1.02
 .handover { margin: 90px 0 0 auto; max-width: 720px; padding: 30px 0 0; border-top: 1px solid #466281; color: #b7c6d9; font-size: 19px; line-height: 1.6; }
 .handover p { margin: 0; }
 .handover .handover-label { margin-bottom: 10px; color: #79bfff; font-size: 12px; text-transform: uppercase; letter-spacing: .14em; }
+.handover-copy strong { display: inline-block; margin-top: 5px; }
 .handover strong { color: white; font-weight: 500; }
 
 .entry-offer { background: var(--paper); }
@@ -169,7 +170,6 @@ h2 { margin-bottom: 28px; font-size: clamp(44px, 5.5vw, 78px); line-height: 1.02
 .contact-mark img {
   width: 52%;
   height: 52%;
-  border-radius: 50%;
   filter: brightness(0) invert(1);
   opacity: .9;
 }
