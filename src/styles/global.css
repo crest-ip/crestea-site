@@ -108,7 +108,8 @@ h2 { margin-bottom: 28px; font-size: clamp(44px, 5.5vw, 78px); line-height: 1.02
 .front-path h3 { margin: 40px 0 14px; font: 600 25px/1.2 Manrope; }
 .front-path p { color: #b7c6d9; line-height: 1.55; }
 .handover { margin: 90px 0 0 auto; max-width: 720px; padding: 30px 0 0; border-top: 1px solid #466281; color: #b7c6d9; font-size: 19px; line-height: 1.6; }
-.handover span { display: block; margin-bottom: 10px; color: #79bfff; font-size: 12px; text-transform: uppercase; letter-spacing: .14em; }
+.handover p { margin: 0; }
+.handover .handover-label { margin-bottom: 10px; color: #79bfff; font-size: 12px; text-transform: uppercase; letter-spacing: .14em; }
 .handover strong { color: white; font-weight: 500; }
 
 .entry-offer { background: var(--paper); }
@@ -165,7 +166,13 @@ h2 { margin-bottom: 28px; font-size: clamp(44px, 5.5vw, 78px); line-height: 1.02
 
 .contact { display: grid; grid-template-columns: .55fr 1.45fr; gap: 7vw; background: var(--navy-soft); align-items: center; }
 .contact-mark { display: grid; place-items: center; width: min(320px, 100%); aspect-ratio: 1; border: 1px solid #476486; border-radius: 50%; }
-.contact-mark img { filter: brightness(0) invert(1); opacity: .9; }
+.contact-mark img {
+  width: 52%;
+  height: 52%;
+  border-radius: 50%;
+  filter: brightness(0) invert(1);
+  opacity: .9;
+}
 .contact-copy { max-width: 830px; }
 .contact-copy p:not(.section-number) { max-width: 660px; color: #c1d0e0; font-size: 19px; line-height: 1.55; }
 .button-light { margin-top: 24px; color: var(--navy); background: white; }
