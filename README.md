@@ -38,6 +38,15 @@ npm audit --omit=dev
 - Runtime dependency audit: 0 known vulnerabilities
 - Static output: `dist/`
 
+## Deployment
+
+The site deploys to GitHub Pages from `main` through `.github/workflows/deploy.yml`. The configured custom domain is `crestea.se`.
+
+GitHub Pages: `https://crest-ip.github.io/crestea-site/`  
+Custom domain after DNS cutover: `https://crestea.se/`
+
+OpenAI Sites is not used.
+
 ## Assets
 
 The current site uses the supplied 225 × 225 single-colour Crest symbol as a temporary web asset. The untouched EPS master is stored one level above the site under `assets/brand/logo/source/`. A standalone SVG should be derived and visually verified from that master before production publication.
