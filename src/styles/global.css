@@ -43,7 +43,12 @@ a { color: inherit; }
 nav { display: flex; gap: 32px; font-size: 14px; }
 nav a { text-decoration: none; color: var(--muted); }
 nav a:hover { color: var(--ink); }
-.header-cta { justify-self: end; text-decoration: none; font-size: 14px; border-bottom: 1px solid var(--ink); padding: 9px 0; }
+.header-actions { justify-self: end; display: flex; align-items: center; gap: 24px; }
+.header-cta { text-decoration: none; font-size: 14px; border-bottom: 1px solid var(--ink); padding: 9px 0; }
+.language-switch { display: flex; align-items: center; gap: 8px; font: 600 11px/1 Manrope, sans-serif; letter-spacing: .12em; }
+.language-switch span { color: var(--blue); }
+.language-switch a { color: var(--muted); text-decoration: none; }
+.language-switch a:hover { color: var(--ink); }
 
 .hero {
   min-height: calc(100vh - 88px);
@@ -203,6 +208,7 @@ footer { max-width: var(--max); margin: 0 auto; min-height: 160px; padding: 50px
   .site-header { height: 74px; padding: 0 20px; }
   .brand img { width: 38px; height: 38px; }
   .header-cta { font-size: 12px; }
+  .header-actions { gap: 16px; }
   .hero { padding: 52px 20px 80px; gap: 25px; }
   h1 { font-size: clamp(54px, 17vw, 76px); }
   h2 { font-size: 42px; }
